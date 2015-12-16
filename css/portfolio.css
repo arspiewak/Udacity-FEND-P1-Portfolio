@@ -3,6 +3,10 @@
 	-moz-box-sizing: border-box;
 	-ms-box-sizing: border-box;
 	box-sizing: border-box;
+    /*
+     * Mockup font is Gotham HTF from Hoefler & Co. (typography.com). Raleway is 
+     * my best match from Google Fonts.
+     */
 	font-family: "Raleway", Geneva, sans-serif;
 	
 	border: 3px dotted purple !important; /* Border For initial testing */
@@ -89,7 +93,12 @@
     float: left;
 }
 
-/* Text tags */
+.hero-image {
+    width: 98%;
+    margin: 1%;
+}
+
+/* Text styles */
 
 .my-name {
     margin: 0;
