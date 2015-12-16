@@ -104,13 +104,20 @@
     margin: 0;
     margin-top: 10px;
     font-size: 3em;
-    font-weight: 100;
+    font-weight: 200;
     text-transform: uppercase;
     text-align: right;
-}
+    color: #bcbbbb;}
 
 .job-title {
     float: right;
     text-transform: uppercase;
     margin: 3px;
+    color: #bcbbbb;}
+
+.application-header {
+    font-size: 2em;
+    width: 98%;
+    margin: 1%;
+    color: #bcbbbb;
 }
