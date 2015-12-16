@@ -3,7 +3,7 @@
 	-moz-box-sizing: border-box;
 	-ms-box-sizing: border-box;
 	box-sizing: border-box;
-	font-family: verdana;
+	font-family: "Raleway", Geneva, sans-serif;
 	
 	border: 3px dotted purple !important; /* Border For initial testing */
 
@@ -79,4 +79,29 @@
 .col-12 {
     width: 100%;
     border: 2px solid red !important; /* Border For initial testing */
+}
+
+/* Styles for images */
+
+.udacity-logo {
+    max-height: 100%;
+    width: 20%;
+    float: left;
+}
+
+/* Text tags */
+
+.my-name {
+    margin: 0;
+    margin-top: 10px;
+    font-size: 3em;
+    font-weight: 100;
+    text-transform: uppercase;
+    text-align: right;
+}
+
+.job-title {
+    float: right;
+    text-transform: uppercase;
+    margin: 3px;
 }
