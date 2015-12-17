@@ -9,7 +9,7 @@
      */
 	font-family: "Raleway", Geneva, sans-serif;
 	
-	border: 3px dotted purple !important; /* Border For initial testing */
+	/* border: 3px dotted purple !important;   / * Border For initial testing */
 
 }
 
@@ -24,18 +24,18 @@
     margin: 0 auto;
     max-width: 1200px;
     width: 100%;
-    border: 2px solid green !important; /* Border For initial testing */
+    /* border: 2px solid green !important; / * Border For initial testing */
 }
 
 .row {
     width: 100%;
     display: flex;
-    border: 2px dashed black !important; /* Border For initial testing */
+    /* border: 2px dashed black !important; / * Border For initial testing */
 }
 
 .col-1 {
     width: 8.33%;
-    border: 2px solid red !important; /* Border For initial testing */
+    /* border: 2px solid red !important; / * Border For initial testing */
 }
 /*
 .col-2 {
@@ -48,7 +48,7 @@
 */
 .col-4 {
     width: 33.33%;
-    border: 2px solid red !important; /* Border For initial testing */
+    /* border: 2px solid red !important; / * Border For initial testing */
 }
 /*
 .col-5 {
@@ -57,7 +57,7 @@
 */
 .col-6 {
     width: 50%;
-    border: 2px solid red !important; /* Border For initial testing */
+    /* border: 2px solid red !important; / * Border For initial testing */
 }
 /*
 .col-7 {
@@ -82,7 +82,7 @@
 */
 .col-12 {
     width: 100%;
-    border: 2px solid red !important; /* Border For initial testing */
+    /* border: 2px solid red !important; / * Border For initial testing */
 }
 
 /* Styles for images */
