@@ -91,6 +91,7 @@
     max-height: 100%;
     width: 20%;
     float: left;
+    margin-left: 2%;    /* 2% of a half-width cell = 1% of full-width */
 }
 
 .hero-image {
@@ -103,6 +104,7 @@
 .my-name {
     margin: 0;
     margin-top: 10px;
+    margin-right: 2%;
     font-size: 3em;
     font-weight: 200;
     text-transform: uppercase;
@@ -112,7 +114,8 @@
 .job-title {
     float: right;
     text-transform: uppercase;
-    margin: 3px;
+    margin-top: 3px;
+    margin-right: 2%;
     color: #bcbbbb;}
 
 .application-header {
