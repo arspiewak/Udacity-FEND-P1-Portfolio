@@ -156,6 +156,16 @@
     color: #676857;
 }
 
+.app-description {  /* used in app stub and intro pages */
+    font-size: 2em;
+    font-weight: 400;
+    text-align: left;
+    margin: auto;
+    color: #676857;
+    width: 50%;
+    padding-bottom: 30px;
+}
+
 /* Containers */
 
 .app-box {          /* aligns application image, title, and link within the flexbox row */
