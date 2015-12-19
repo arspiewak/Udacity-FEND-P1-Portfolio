@@ -30,6 +30,8 @@
 .row {
     width: 100%;
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     /* border: 2px dashed black !important; / * Border For initial testing */
 }
 
@@ -170,6 +172,7 @@
 
 .app-box {          /* aligns application image, title, and link within the flexbox row */
     margin: 3%;
+    padding-bottom: 30px;
 }
 
 /* Horizontal line to set off header */
