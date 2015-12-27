@@ -38,6 +38,7 @@
 
 .col-2 {
     width: 16.66%;
+    /* border: 2px dotted green; / * Border For initial testing */
 }
 /*
 .col-3 {
@@ -61,19 +62,19 @@
 .col-7 {
     width: 58.33%;
 }
-
+*/
 .col-8 {
     width: 66.66%;
 }
-
+/*
 .col-9 {
     width: 75%;
 }
-*/
+
 .col-10 {
     width: 83.33%;
 }
-/*
+
 .col-11 {
     width: 91.66%;
 }
@@ -90,6 +91,14 @@
     height: auto;
     float: left;
     margin-left: 6%;
+}
+
+.avatar {
+    width: 75%;
+    float: right;
+    height: auto;
+    margin-right: 6%;
+    border-radius: 50%;
 }
 
 .hero-image {
@@ -111,19 +120,19 @@
  */
 
 .my-name {
-    margin: 0 2% 0 0;
+    margin: 0;
     font-size: 4em;
     font-weight: 300;
-    line-height: 75%;           /* Align top of all-caps with top of logo */
-    text-transform: uppercase;
-    text-align: right;
+    padding-top: 3%;
+    text-transform: none;
+    text-align: center;
     color: #676857;
 }
 
 .job-title {
     font-size: 1.5em;
     font-weight: 300;
-    float: right;
+    text-align: center;
     text-transform: uppercase;
     margin: 3px 2% 0 0;
     color: #676857;
