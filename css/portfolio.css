@@ -163,14 +163,24 @@
     color: #A576BC;
 }
 
-.app-description {  /* used in app stub and intro pages */
+.app-description {
     font-size: 1.5em;
     font-weight: 400;
     text-align: left;
     margin: auto;
     color: #A576BC;
-    width: 50%;
-    padding-bottom: 30px;
+    width: 100%;
+    padding-bottom: 1em;
+}
+
+.hero-description {
+    font-size: 1.5em;
+    font-weight: 400;
+    text-align: right;
+    margin-right: 2%;
+    color: #A576BC;
+    width: 100%;
+    padding-bottom: 1em;
 }
 
 /* Containers */
