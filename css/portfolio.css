@@ -29,8 +29,11 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    align-items: baseline;
     /* border: 2px dashed black !important; / * Border For initial testing */
+}
+
+.baseline { /* Add baseline alignment to flexboxes that need it (apps) */
+    align-items: baseline;
 }
 
 .col-1 {
@@ -177,10 +180,15 @@
     font-size: 1.5em;
     font-weight: 400;
     text-align: right;
-    margin-right: 2%;
+    margin: 0;
     color: #A576BC;
     width: 100%;
     padding-bottom: 1em;
+}
+
+a {
+    color: white;
+    text-decoration: none;
 }
 
 /* Containers */
