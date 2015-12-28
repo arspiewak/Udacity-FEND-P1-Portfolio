@@ -28,6 +28,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    align-items: baseline;
     /* border: 2px dashed black !important; / * Border For initial testing */
 }
 
@@ -99,6 +100,7 @@
     height: auto;
     margin-right: 6%;
     border-radius: 50%;
+/*    border: 5px solid #f79820; */
 }
 
 .hero-image {
@@ -107,7 +109,8 @@
 }
 
 .app-image {
-    max-width: 100%;
+    width: 100%;
+    height: auto;
     margin: 0;
 }
 
@@ -158,7 +161,7 @@
 .app-link {
     font-size: .75em;
     font-weight: 700;
-    float: left;
+    text-align: left;
     margin: 0;
     color: #676857;
 }
