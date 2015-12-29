@@ -1,4 +1,4 @@
-* {
+body {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	-ms-box-sizing: border-box;
@@ -11,9 +11,7 @@
 
 .udacity-logo {
     width: 75%;         /* scaled as percent of parent col-2 */
-    height: auto;
     float: left;
-    margin-left: 6%;
     background-color: white;
     border-radius: 50%;
 }
@@ -21,21 +19,17 @@
 .avatar {
     width: 75%;
     float: right;
-    height: auto;
-    margin-right: 6%;
     border-radius: 50%;
     border: 5px solid #f79820;
 }
 
 .hero-image {
-    width: 98%;
-    margin: 1%;
+    width: 75%;
+    /* TODO Retain? */
 }
 
 .app-image {
     width: 100%;
-    height: auto;
-    margin: 0;
 }
 
 /* Text styles */
@@ -118,10 +112,7 @@ a {
 }
 
 /* Horizontal line to set off header */
-.h-line {
-    display: block;
-    margin: 20px 1% 20px 1%;
-    border-style: inset;
-    border-width: 1px;
+hr {
+    border-width: 2px;
     border-color: #A576BC;
 }
