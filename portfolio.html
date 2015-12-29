@@ -5,33 +5,38 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Portfolio - Alan Spiewak</title>
-	<link href="css/portfolio.css" rel="stylesheet">
 	<link rel="stylesheet"
 		href="https://fonts.googleapis.com/css?family=Merriweather:400,300,400italic,700,900">
+	<script type="text/javascript" src="js/jquery-1.11.3.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/portfolio.css">
 </head>
 <body>
-	<div class="grid">
+	<div class="container">
 		<div class="row">
 			<!--Page heading row-->
-			<div class="col-2">
+			<div class="col-md-2">
 				<img class="udacity-logo" src="images/udacity-logo.svg"
 					alt="Udacity logo">
 			</div>
-			<div class="col-8">
+			<div class="col-md-8">
 				<h1 class="my-name">Alan R. Spiewak</h1>
 				<p class="job-title">Front-End Apprentice</p>
 			</div>
-			<div class="col-2 end">
+			<div class="col-md-2">
 				<img class="avatar" alt="Alan's avatar"
 				src="https://avatars3.githubusercontent.com/u/15353005?v=3&amp;s=460">
 			</div>
 		</div>
 		<div class="row">
-			<hr class="h-line">
+			<div class="col-md-12">
+				<hr class="h-line">
+			</div>
 		</div>
 		<div class="row">
 			<!--Hero (main graphic) row-->
-			<figure class="col-12 end">
+			<figure class="col-md-12">
 				<img class = "hero-image" src="images/barrow-420728_640.jpg"
 				 alt="Building software for fun and glory">
 				 <figcaption class="hero-description">
@@ -41,7 +46,7 @@
 		</div>
 		<div class="row">
 			<!-- App header row-->
-			<div class="col-12 end">
+			<div class="col-md-12">
 				<h2 class="application-header">Featured Work</h2>
 			</div>
 		</div>
@@ -53,7 +58,7 @@
 				the mockup precisely. I hope to fix this eventually, but it's
 				not critical path.
 			-->
-			<div class="col-4">
+			<div class="col-md-4">
 				<a href="http://arspiewak.github.io/Udacity-FEND-P0-About-Me/">
 					<figure class="app-box">
 						<img class="app-image" src="https://pixabay.com/static/uploads/photo/2015/08/06/16/00/forest-878029_960_720.jpg"
@@ -71,7 +76,7 @@
 					</figure>
 				</a>
 			</div>
-			<div class="col-4">
+			<div class="col-md-4">
 				<a href="portfolio-app2.html">
 					<figure class="app-box">
 						<img class="app-image" src="images/sample-hero-thumb.jpg"
@@ -81,7 +86,8 @@
 							<p class="app-description">
 								A framework app that displays projects I've written. The production
 								 version is what you're looking at now; this link takes you to the
-								 class assignment/mockup.</p>
+								 class assignment/mockup.
+							</p>
 							<p class="app-link">
 								http://arspiewak.github.io/Udacity-FEND-P1A-Portfolio-Mockup/
 								portfolio.html
@@ -90,7 +96,7 @@
 					</figure>
 				</a>
 			</div>
-			<div class="col-4 end">
+			<div class="col-md-4">
 				<a href="portfolio-app3.html">
 					<figure class="app-box">
 						<img class="app-image" src="images/resume-thumbnail.jpg"
