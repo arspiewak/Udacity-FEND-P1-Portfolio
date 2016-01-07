@@ -14,13 +14,13 @@
 </head>
 <body>
 	<div class="container">
-		<div class="row">
+		<div class="row" role="banner">
 			<!--Page heading row-->
 			<div class="col-md-2">
 				<img class="img-responsive udacity-logo pull-left" src="images/udacity-logo.svg"
 					alt="Udacity logo">
 			</div>
-			<div class="col-md-8">
+			<div class="col-md-8 text-center">
 				<h1 class="my-name">Alan R. Spiewak</h1>
 				<p class="job-title">Front-End Apprentice</p>
 			</div>
@@ -37,10 +37,10 @@
 		<div class="row">
 			<!--Hero (main graphic) row-->
 			<figure class="col-md-12">
-				<img class = "img-responsive center-block hero-image" src="images/barrow-420728_640.jpg"
+				<img class="img-responsive center-block hero-image" src="images/barrow-420728_640.jpg"
 				 alt="Building software for fun and glory">
 				 <figcaption class="hero-description">
-					...Building software for fun and profit
+					...Building software for fun and glory
 				 </figcaption>
 			</figure>
 		</div>
@@ -57,8 +57,7 @@
 					<figure class="app-box">
 						<img class="img-responsive app-image" data-toggle="modal" data-target="#app1"
 							title="Click for a description of the application."
-						src="https://pixabay.com/static/uploads/photo/2015/08/06/16/00/forest-878029_960_720.jpg"
-							alt="Application #1: About Me">
+							src="images/forest-878029_960_720.jpg" alt="Application #1: About Me">
 						<figcaption>
 							<a href="http://arspiewak.github.io/Udacity-FEND-P0-About-Me/"
 								title="Click to visit the application.">
@@ -107,8 +106,8 @@
 	</div>
 	<!-- Begin modal definitions -->
 	<!-- app1 -->
-	<div class="modal fade" id="app1" role="document" tab-index="-1" aria-labelledby="app1-label">
-		<div class="modal-dialog" role="document">
+	<div class="modal fade" id="app1" role="dialog" aria-labelledby="app1-label">
+		<div class="modal-dialog" role="dialog">
 			<div class="modal-content container-flow">
 				<div class="modal-header row">
 					<div class="col-md-3"> </div>
@@ -116,23 +115,27 @@
 						About Me
 					</h3>
 					<div class="col-md-3">
-						<button type="button" class="btn btn-default pull-right" data-dismiss="modal">Close</button>
+						<button type="button" class="btn btn-default pull-right" data-dismiss="modal">
+							Close
+						</button>
 					</div>
 				</div>
 				<figure class="modal-body">
 					<img class="img-responsive hero-image center-block" alt="Application #1: About Me"
-					src="https://pixabay.com/static/uploads/photo/2015/08/06/16/00/forest-878029_960_720.jpg">
+						src="images/forest-878029_960_720.jpg">
 					<figcaption class="app-description">
 						My first front-end project: a little &quot;Hello, World&quot; page.
 						The basic code for the project was supplied by Udacity, and my
 						assignment was to &quot;fix&quot; and personalize it.
 					</figcaption>
 				</figure>
-				<div class="modal-footer text-justify row">
-				 	<a href="https://github.com/arspiewak/Udacity-FEND-P0-About-Me" class="col-md-6 text-left">
+				<div class="modal-footer row" role="navigation">
+					<a href="https://github.com/arspiewak/Udacity-FEND-P0-About-Me"
+						class="col-md-6 text-left">
 						View GitHub repository
 					</a>
-					<a href="http://arspiewak.github.io/Udacity-FEND-P0-About-Me/" class="col-md-6 text-right">
+					<a href="http://arspiewak.github.io/Udacity-FEND-P0-About-Me/"
+						class="col-md-6 text-right">
 						Run the app
 					</a>
 				</div>
@@ -141,7 +144,7 @@
 	</div>
 	<!-- End of modal definitions -->
 
-	<!-- Enable tooltips (fronm title attribute) on hover -->
+	<!-- Enable tooltips (automatically displayed from title) on hover -->
 	<script>
 		$(document).ready(function(){
 			$('[data-toggle="tooltip"]').tooltip();
