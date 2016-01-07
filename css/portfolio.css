@@ -78,6 +78,12 @@ h2 small {
     text-align: left;
     margin: 0;
     color: #A576BC;
+    /* Use a fixed height so app columns clear to the left. Without
+     * this kludge, uneven heights make the next app stop at the
+     * shortest entry. See http://stackoverflow.com/questions/
+     * 25598728/irregular-bootstrap-column-wrapping
+     */
+    height: 2em;
 }
 
 .app-description {
@@ -103,7 +109,6 @@ h2 small {
 /* Aligns application image, title, and link within the row */
 .app-box {
     margin: 3%;
-    padding-bottom: 30px;
 }
 
 /* Horizontal line to set off header */
