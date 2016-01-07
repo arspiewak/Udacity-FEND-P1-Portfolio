@@ -2,40 +2,51 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Sample App 3 - Alan Spiewak</title>
-	<link href="css/portfolio.css" rel="stylesheet" >
 	<link rel="stylesheet"
 		href="https://fonts.googleapis.com/css?family=Merriweather:400,300,400italic,700,900">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link href="css/portfolio.css" rel="stylesheet" >
 </head>
 <body>
-	<div class="grid">
-		<div class="row">
+	<div class="container">
+		<div class="row" role="banner">
 			<!--Page heading row-->
-			<div class="col-2">
-				<img class="udacity-logo" src="images/udacity-logo.svg"
+			<div class="col-md-2">
+				<img class="img-responsive udacity-logo pull-left" src="images/udacity-logo.svg"
 					alt="Udacity logo">
 			</div>
-			<div class="col-8">
+			<div class="col-md-8 text-center">
 				<h1 class="my-name">Alan R. Spiewak</h1>
 				<p class="job-title">Front-End Apprentice</p>
 			</div>
-			<div class="col-2 end">
-				<img class="avatar" alt="Alan's avatar"
+			<div class="col-md-2">
+				<img class="img-responsive avatar pull-right" alt="Alan's avatar"
 				src="https://avatars3.githubusercontent.com/u/15353005?v=3&amp;s=460">
 			</div>
 		</div>
 		<div class="row">
-			<!--Hero (main graphic) row-->
-			<figure class="col-12 end">
+			<div class="col-md-12">
 				<hr class="h-line">
-				<img class = "hero-image" src="images/resume-thumbnail.jpg"
-				 alt="Application #3: Resume">
+			</div>
+		</div>
+		<div class="row">
+			<!--Hero (main graphic) row-->
+			<figure class="col-md-12">
+				<img class = "img-responsive center-block hero-image"
+					src="images/resume-thumbnail.jpg"
+					alt="Application #3: Resume">
 				 <figcaption>
+				 	<p class="hero-description">
+				 		This is a stub page for a future project...
+				 	</p>
 					<p class="app-title">Resume</p>
 					<p class="app-description">
-						This is a stub page for a future project assignment,
-						the interactive resume application. Stay tuned for
-						coming attractions!
+						Coming attraction: an interactive resume application,
+						based on JavaScript and jQuery. Completion is expected
+						towards the end of January 2016.
 					</p>
 				</figcaption>
 			</figure>
