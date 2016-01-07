@@ -54,53 +54,52 @@
 		<nav class="row baseline">
 			<!--App list row -->
 			<div class="col-md-4">
-					<figure class="app-box">
-						<img class="img-responsive app-image" data-toggle="modal" data-target="#app1"
-							title="Click for a description of the application."
-							src="images/forest-878029_960_720.jpg" alt="Application #1: About Me">
-						<figcaption>
-							<a href="http://arspiewak.github.io/Udacity-FEND-P0-About-Me/"
-								title="Click to visit the application.">
-								<h3 class="app-title">About Me</h3>
-								<p class="app-link">
-									http://arspiewak.github.io/Udacity-FEND-P0-About-Me/
-								</p>
-							</a>
-						</figcaption>
-					</figure>
-			</div>
-			<div class="col-md-4">
-				<a href="portfolio-app2.html">
-					<figure class="app-box">
-						<img class="img-responsive app-image" src="images/sample-hero-thumb.jpg"
-							alt="Application #2: Portfolio">
-						<figcaption>
-							<h3 class="app-title">Portfolio</h3>
-							<p class="app-description">
-								A framework app that displays projects I've written. The production
-								 version is what you're looking at now; this link takes you to the
-								 class assignment/mockup.
-							</p>
+				<figure class="app-box">
+					<img class="img-responsive app-image" data-toggle="modal" data-target="#app1"
+						title="Click for a description of the application."
+						src="images/forest-878029_960_720.jpg" alt="Application #1: About Me">
+					<figcaption>
+						<a href="http://arspiewak.github.io/Udacity-FEND-P0-About-Me/"
+							title="Click to visit the application.">
+							<h3 class="app-title">About Me</h3>
 							<p class="app-link">
-								http://arspiewak.github.io/Udacity-FEND-P1A-Portfolio-Mockup/
-								portfolio.html
+								http://arspiewak.github.io/Udacity-FEND-P0-About-Me/
 							</p>
-						</figcaption>
-					</figure>
-				</a>
+						</a>
+					</figcaption>
+				</figure>
 			</div>
 			<div class="col-md-4">
-				<a href="portfolio-app3.html">
-					<figure class="app-box">
-						<img class="img-responsive app-image" src="images/resume-thumbnail.jpg"
-							alt="Application #3: Resume">
-						<figcaption>
+				<figure class="app-box">
+					<img class="img-responsive app-image" data-toggle="modal" data-target="#app2"
+						title="Click for a description of the application."
+						src="images/sample-hero-thumb.jpg" alt="Application #2: Portfolio">
+					<figcaption>
+						<a href="http://arspiewak.github.io/Udacity-FEND-P1A-Portfolio-Mockup/portfolio.html"
+							title="Click to visit the application.">
+							<h3 class="app-title">Portfolio</h3>
+							<p class="app-link">
+								http://arspiewak.github.io/Udacity-FEND-P1A-Portfolio-Mockup/portfolio.html
+							</p>
+						</a>
+					</figcaption>
+				</figure>
+			</div>
+			<div class="col-md-4">
+				<figure class="app-box">
+					<img class="img-responsive app-image" data-toggle="modal" data-target="#app3"
+						title="Click for a description of the application."
+						src="images/resume-thumbnail.jpg" alt="Application #3: Resume">
+					<figcaption>
+						<a href="portfolio-app3.html"
+							title="Click to visit the application.">
 							<h3 class="app-title">Resume</h3>
-							<p class="app-description">Interactive Resume (a future attraction).</p>
-							<p class="app-link">portfolio-app3.html</p>
-						</figcaption>
-					</figure>
-				</a>
+							<p class="app-link">
+								portfolio-app3.html
+							</p>
+						</a>
+					</figcaption>
+				</figure>
 			</div>
 		</nav>
 	</div>
@@ -110,7 +109,7 @@
 		<div class="modal-dialog" role="dialog">
 			<div class="modal-content container-flow">
 				<div class="modal-header row">
-					<div class="col-md-3"> </div>
+					<div class="col-md-3"> </div> <!-- null: couldn't get column offset to work-->
 					<h3 class="modal-title app-title col-md-6" id="app1-label">
 						About Me
 					</h3>
@@ -142,6 +141,89 @@
 			</div>
 		</div>
 	</div>
+<!-- -->
+	<!-- app2 -->
+	<div class="modal fade" id="app2" role="dialog" aria-labelledby="app2-label">
+		<div class="modal-dialog" role="dialog">
+			<div class="modal-content container-flow">
+				<div class="modal-header row">
+					<div class="col-md-3"> </div> <!-- null: couldn't get column offset to work-->
+					<h3 class="modal-title app-title col-md-6" id="app2-label">
+						Portfolio
+					</h3>
+					<div class="col-md-3">
+						<button type="button" class="btn btn-default pull-right" data-dismiss="modal">
+							Close
+						</button>
+					</div>
+				</div>
+				<figure class="modal-body">
+					<img class="img-responsive hero-image center-block" alt="Application #2: Portfolio"
+						src="images/sample-hero-thumb.jpg">
+					<figcaption class="app-description">
+						You are currently using the production version of Portfolio.
+						The assignment was first to build out a mockup, provided as
+						a PDF file. We then were to personalize and extend the page.
+						Links below take you to a copy of the repository frozen at
+						the mockup stage, to the production repository, and to a
+						runnable implementation of the mockup. The original PDF is
+						included in the repository for your reference.
+					</figcaption>
+				</figure>
+				<div class="modal-footer row" role="navigation">
+					<a href="https://github.com/arspiewak/Udacity-FEND-P1A-Portfolio-Mockup"
+						class="col-md-4 text-left">
+						View GitHub mockup repository
+					</a>
+					<a href="https://github.com/arspiewak/Udacity-FEND-P1-Portfolio"
+						class="col-md-4 text-center">
+						View GitHub production repository
+					</a>
+					<a href="http://arspiewak.github.io/Udacity-FEND-P1A-Portfolio-Mockup/portfolio.html"
+						class="col-md-4 text-right">
+						Run the mockup app
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- -->
+	<!-- app1 -->
+	<div class="modal fade" id="app3" role="dialog" aria-labelledby="app3-label">
+		<div class="modal-dialog" role="dialog">
+			<div class="modal-content container-flow">
+				<div class="modal-header row">
+					<div class="col-md-3"> </div> <!-- null: couldn't get column offset to work-->
+					<h3 class="modal-title app-title col-md-6" id="app3-label">
+						Resume
+					</h3>
+					<div class="col-md-3">
+						<button type="button" class="btn btn-default pull-right" data-dismiss="modal">
+							Close
+						</button>
+					</div>
+				</div>
+				<figure class="modal-body">
+					<img class="img-responsive hero-image center-block" alt="Application #3: Resume"
+						src="images/resume-thumbnail.jpg">
+					<figcaption class="app-description">
+						Coming attraction: an interactive resume application. Completion is expected towards the end of January 2016.
+					</figcaption>
+				</figure>
+				<div class="modal-footer row" role="navigation">
+					<a href="#"
+						class="col-md-6 text-left">
+						View GitHub repository
+					</a>
+					<a href="portfolio-app3.html"
+						class="col-md-6 text-right">
+						Run the app
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- -->
 	<!-- End of modal definitions -->
 
 	<!-- Enable tooltips (automatically displayed from title) on hover -->
