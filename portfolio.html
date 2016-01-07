@@ -47,7 +47,8 @@
 		<div class="row">
 			<!-- App header row-->
 			<div class="col-md-12">
-				<h2 class="application-header">Featured Work</h2>
+				<h2 class="application-header">Featured Work
+					<small>(Click on the picture for a description of the application.)</small></h2>
 			</div>
 		</div>
 		<nav class="row baseline">
@@ -55,10 +56,12 @@
 			<div class="col-md-4">
 					<figure class="app-box">
 						<img class="img-responsive app-image" data-toggle="modal" data-target="#app1"
+							title="Click for a description of the application."
 						src="https://pixabay.com/static/uploads/photo/2015/08/06/16/00/forest-878029_960_720.jpg"
 							alt="Application #1: About Me">
 						<figcaption>
-							<a href="http://arspiewak.github.io/Udacity-FEND-P0-About-Me/">
+							<a href="http://arspiewak.github.io/Udacity-FEND-P0-About-Me/"
+								title="Click to visit the application.">
 								<h3 class="app-title">About Me</h3>
 								<p class="app-link">
 									http://arspiewak.github.io/Udacity-FEND-P0-About-Me/
@@ -137,5 +140,12 @@
 		</div>
 	</div>
 	<!-- End of modal definitions -->
+
+	<!-- Enable tooltips (fronm title attribute) on hover -->
+	<script>
+		$(document).ready(function(){
+			$('[data-toggle="tooltip"]').tooltip();
+		});
+	</script>
 </body>
 </html>

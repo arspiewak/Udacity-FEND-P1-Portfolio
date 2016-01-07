@@ -58,6 +58,10 @@ body {
     color: #A576BC;
 }
 
+h2 small {
+    color: #A576BC;
+}
+
 .app-title {
     font-size: 2em;
     font-weight: 400;
@@ -97,7 +101,7 @@ body {
 
 /* Containers */
 
-/* Aligns application image, title, and link within the flexbox row */
+/* Aligns application image, title, and link within the row */
 .app-box {
     margin: 3%;
     padding-bottom: 30px;
