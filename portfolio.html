@@ -17,7 +17,7 @@
 		<div class="row">
 			<!--Page heading row-->
 			<div class="col-md-2">
-				<img class="img-responsive udacity-logo" src="images/udacity-logo.svg"
+				<img class="img-responsive udacity-logo pull-left" src="images/udacity-logo.svg"
 					alt="Udacity logo">
 			</div>
 			<div class="col-md-8">
@@ -25,7 +25,7 @@
 				<p class="job-title">Front-End Apprentice</p>
 			</div>
 			<div class="col-md-2">
-				<img class="img-responsive avatar" alt="Alan's avatar"
+				<img class="img-responsive avatar pull-right" alt="Alan's avatar"
 				src="https://avatars3.githubusercontent.com/u/15353005?v=3&amp;s=460">
 			</div>
 		</div>
@@ -51,30 +51,21 @@
 			</div>
 		</div>
 		<nav class="row baseline">
-			<!--App list row
-				Within this row, I have chosen to make the entire .app-box
-				region link to the application homepage. As a result, some
-				text is automatically being underlined, so it doesn't match
-				the mockup precisely. I hope to fix this eventually, but it's
-				not critical path.
-			-->
+			<!--App list row -->
 			<div class="col-md-4">
-				<a href="http://arspiewak.github.io/Udacity-FEND-P0-About-Me/">
 					<figure class="app-box">
-						<img class="img-responsive app-image" src="https://pixabay.com/static/uploads/photo/2015/08/06/16/00/forest-878029_960_720.jpg"
+						<img class="img-responsive app-image" data-toggle="modal" data-target="#app1"
+						src="https://pixabay.com/static/uploads/photo/2015/08/06/16/00/forest-878029_960_720.jpg"
 							alt="Application #1: About Me">
 						<figcaption>
-							<h3 class="app-title">About Me</h3>
-							<p class="app-description">
-								My first front-end project: a little &quot;Hello, World&quot;
-								page.
-							</p>
-							<p class="app-link">
-								http://arspiewak.github.io/Udacity-FEND-P0-About-Me/
-							</p>
+							<a href="http://arspiewak.github.io/Udacity-FEND-P0-About-Me/">
+								<h3 class="app-title">About Me</h3>
+								<p class="app-link">
+									http://arspiewak.github.io/Udacity-FEND-P0-About-Me/
+								</p>
+							</a>
 						</figcaption>
 					</figure>
-				</a>
 			</div>
 			<div class="col-md-4">
 				<a href="portfolio-app2.html">
@@ -111,5 +102,40 @@
 			</div>
 		</nav>
 	</div>
+	<!-- Begin modal definitions -->
+	<!-- app1 -->
+	<div class="modal fade" id="app1" role="document" tab-index="-1" aria-labelledby="app1-label">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content container-flow">
+				<div class="modal-header row">
+					<div class="col-md-3"> </div>
+					<h3 class="modal-title app-title col-md-6" id="app1-label">
+						About Me
+					</h3>
+					<div class="col-md-3">
+						<button type="button" class="btn btn-default pull-right" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+				<figure class="modal-body">
+					<img class="img-responsive hero-image center-block" alt="Application #1: About Me"
+					src="https://pixabay.com/static/uploads/photo/2015/08/06/16/00/forest-878029_960_720.jpg">
+					<figcaption class="app-description">
+						My first front-end project: a little &quot;Hello, World&quot; page.
+						The basic code for the project was supplied by Udacity, and my
+						assignment was to &quot;fix&quot; and personalize it.
+					</figcaption>
+				</figure>
+				<div class="modal-footer text-justify row">
+				 	<a href="https://github.com/arspiewak/Udacity-FEND-P0-About-Me" class="col-md-6 text-left">
+						View GitHub repository
+					</a>
+					<a href="http://arspiewak.github.io/Udacity-FEND-P0-About-Me/" class="col-md-6 text-right">
+						Run the app
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End of modal definitions -->
 </body>
 </html>

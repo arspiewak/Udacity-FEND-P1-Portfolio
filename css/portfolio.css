@@ -10,22 +10,19 @@ body {
 /* Styles for images */
 
 .udacity-logo {
-    width: 75%;         /* scaled as percent of parent col-2 */
-    float: left;
+    width: 75%;         /* scaled as percent of parent column */
     background-color: white;
     border-radius: 50%;
 }
 
 .avatar {
     width: 75%;
-    float: right;
     border-radius: 50%;
     border: 5px solid #f79820;
 }
 
 .hero-image {
     width: 75%;
-    /* TODO Retain? */
 }
 
 .app-image {
@@ -67,6 +64,7 @@ body {
     text-transform: uppercase;
     text-align: center;
     margin: 0;
+    padding-top: 5%;
     color: #A576BC;
 }
 
@@ -85,7 +83,6 @@ body {
     margin: auto;
     color: #A576BC;
     width: 100%;
-    padding-bottom: 1em;
 }
 
 .hero-description {
@@ -96,11 +93,6 @@ body {
     color: #A576BC;
     width: 100%;
     padding-bottom: 1em;
-}
-
-a {
-    color: white;
-    text-decoration: none;
 }
 
 /* Containers */
