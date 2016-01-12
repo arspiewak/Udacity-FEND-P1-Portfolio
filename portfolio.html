@@ -16,18 +16,23 @@
 <body>
 	<div class="container">
 		<div class="row" role="banner">
-			<!--Page heading row-->
-			<div class="col-md-2">
+			<!-- Page heading row.
+				For Bootstrap xs viewports, the logos are justified at the top,
+				followed by text. Larger viewports place the text between the
+				logos.
+			-->
+			<div class="col-xs-6 col-sm-2">
 				<img class="img-responsive udacity-logo pull-left" src="images/udacity-logo.svg"
 					alt="Udacity logo">
 			</div>
-			<div class="col-md-8 text-center">
-				<h1 class="my-name">Alan R. Spiewak</h1>
-				<p class="job-title">Front-End Apprentice</p>
-			</div>
-			<div class="col-md-2">
+			<!-- <div class="disappear-at-sm col-xs-4"> </div> -->
+			<div class="col-xs-6 col-sm-2 col-sm-push-8">
 				<img class="img-responsive avatar pull-right" alt="Alan's avatar"
 				src="https://avatars3.githubusercontent.com/u/15353005?v=3&amp;s=460">
+			</div>
+			<div class="col-sm-8 col-sm-pull-2 text-center">
+				<h1 class="my-name">Alan R. Spiewak</h1>
+				<p class="job-title">Front-End Apprentice</p>
 			</div>
 		</div>
 		<div class="row">
@@ -54,7 +59,7 @@
 		</div>
 		<nav class="row baseline">
 			<!--App list row -->
-			<div class="col-md-4">
+			<div class="col-sm-4">
 				<figure class="app-box">
 					<img class="img-responsive app-image" data-toggle="modal" data-target="#app1"
 						title="Click for a description of the application."
@@ -70,7 +75,7 @@
 					</figcaption>
 				</figure>
 			</div>
-			<div class="col-md-4">
+			<div class="col-sm-4">
 				<figure class="app-box">
 					<img class="img-responsive app-image" data-toggle="modal" data-target="#app2"
 						title="Click for a description of the application."
@@ -86,7 +91,7 @@
 					</figcaption>
 				</figure>
 			</div>
-			<div class="col-md-4">
+			<div class="col-sm-4">
 				<figure class="app-box">
 					<img class="img-responsive app-image" data-toggle="modal" data-target="#app3"
 						title="Click for a description of the application."
@@ -102,7 +107,7 @@
 					</figcaption>
 				</figure>
 			</div>
-			<div class="col-md-4">
+			<div class="col-sm-4">
 				<!-- non-functional spacer to test line-wrap -->
 				<figure class="app-box">
 					<img class="img-responsive app-image"
